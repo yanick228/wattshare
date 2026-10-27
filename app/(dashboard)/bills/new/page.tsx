@@ -58,7 +58,7 @@ export default async function NewBillPage({ searchParams }: NewBillPageProps) {
   }));
 
   return (
-    <div className="space-y-6 max-w-5xl mx-auto animate-in fade-in duration-200">
+    <div className="space-y-6 animate-in fade-in duration-200">
       <div>
         <h1 className="text-2xl font-bold tracking-tight text-foreground">
           Nouvelle Facture d&apos;Électricité

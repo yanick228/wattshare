@@ -51,7 +51,7 @@ export default async function PropertyDetailPage({ params }: PropertyDetailPageP
   const activeTenants = tenants?.filter((t) => t.is_active) || [];
 
   return (
-    <div className="space-y-6 max-w-5xl mx-auto animate-in fade-in duration-200">
+    <div className="space-y-6 animate-in fade-in duration-200">
       {/* Top Navigation */}
       <div className="flex items-center gap-2">
         <Button asChild variant="ghost" size="sm" className="rounded-xl text-xs font-semibold text-muted-foreground hover:text-foreground">

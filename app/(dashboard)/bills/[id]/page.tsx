@@ -78,7 +78,7 @@ export default async function BillDetailPage({ params }: BillDetailPageProps) {
   ) || 0;
 
   return (
-    <div className="space-y-6 max-w-5xl mx-auto animate-in fade-in duration-200">
+    <div className="space-y-6 animate-in fade-in duration-200">
       {/* Top Bar */}
       <div className="flex items-center justify-between">
         <Button asChild variant="ghost" size="sm" className="rounded-xl text-xs font-semibold text-muted-foreground hover:text-foreground">
