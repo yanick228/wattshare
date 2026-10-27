@@ -4,8 +4,6 @@ import { Badge } from "@/components/ui/badge";
 import { CreatePropertyDialog } from "@/components/properties/create-property-dialog";
 import { Building2, Users, Gauge, ArrowRight, MapPin, Zap } from "lucide-react";
 
-export const instant = false;
-
 export default async function PropertiesPage() {
   const supabase = await createClient();
 

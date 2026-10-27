@@ -19,8 +19,6 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-export const instant = false;
-
 export default async function DashboardPage() {
   const supabase = await createClient();
 

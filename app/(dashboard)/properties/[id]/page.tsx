@@ -20,8 +20,6 @@ import {
   Sparkles,
 } from "lucide-react";
 
-export const instant = false;
-
 interface PropertyDetailPageProps {
   params: Promise<{ id: string }>;
 }

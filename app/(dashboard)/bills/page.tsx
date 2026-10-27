@@ -16,8 +16,6 @@ import {
   Sparkles,
 } from "lucide-react";
 
-export const instant = false;
-
 export default async function BillsPage() {
   const supabase = await createClient();
 

@@ -19,8 +19,6 @@ import {
   Share2,
 } from "lucide-react";
 
-export const instant = false;
-
 interface BillDetailPageProps {
   params: Promise<{ id: string }>;
 }

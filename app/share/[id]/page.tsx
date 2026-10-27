@@ -6,8 +6,6 @@ import { Badge } from "@/components/ui/badge";
 import { Zap, Receipt, Building2, Calendar, CheckCircle, Clock, ShieldCheck, Printer } from "lucide-react";
 import { SharePrintButton } from "./print-button";
 
-export const instant = false;
-
 interface ShareBillPageProps {
   params: Promise<{ id: string }>;
 }

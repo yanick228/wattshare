@@ -1,9 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { NewBillForm } from "@/components/bills/new-bill-form";
 
-
-export const instant = false;
-
 interface NewBillPageProps {
   searchParams: Promise<{ property?: string }>;
 }
